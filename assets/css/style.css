@@ -13,6 +13,7 @@
   -moz-box-sizing:border-box;
 }
 
+.
 html {
 height: 100%;
 }
@@ -147,6 +148,7 @@ form {
   background: #EEE;
   border-radius: 0px;
   margin: -2px;
+
 }
 .scr_trackH {
   height: 5px;
@@ -2236,7 +2238,6 @@ ul.sparkline {
 .sidebar-nav {
   width: 240px;
   float: left;
-  position: fixed;
   border-top: none;
   border-left: none;
   background: #323a45;
@@ -4622,6 +4623,7 @@ input[type="password"] {
   right: -0.25em;
 }
 .alert.alert-error {
+    display:none;
   color: #ffffff;
   background: #f5696c; /* Old browsers */
   /* IE9 SVG, needs conditional override of 'filter' to 'none' */
@@ -4735,6 +4737,7 @@ body .http-error .error-caption {
 body .http-error .error-caption p {
   position: relative;
   top: 2.75em;
+
 }
 body .http-error .error-message {
   height: 7em;
@@ -4792,6 +4795,14 @@ body .http-error p {
 }
 .tab-body{
   background: #FAFEFF;
+}
+.float_left {
+    float:left;
+}
+.wide_adjust {
+    float:none;
+    clear:both;
+    margin-top:-520px;
 }
 .tabs.dashtabs.sidetabs {
   background: #242931;

@@ -188,6 +188,8 @@ multiple: "This value should be a multiple of %s"
 
 $(document).ready(function(){
   $("#side-toggle").click(function(){
+    $(".tabs.dashtabs").toggleClass("float_left");
+    $(".tabs.dashtabs").toggleClass("wide_adjust");
     $(".content").toggleClass("content-min");
   });
 });
